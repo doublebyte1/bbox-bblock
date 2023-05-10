@@ -1,0 +1,19 @@
+{
+  "name": "bbox",
+  "abstract": "The bounding box JSON object describes a simple spatial extent of a resource.",
+  "status": "valid",
+  "dateTimeAddition": "2023-05-10T00:00:00Z",
+  "itemClass": "object",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "link": "https://github.com/doublebyte1/bbox-bblock",
+  "sources": [
+    {
+      "title": "ogc-api-features",
+      "link": "https://github.com/opengeospatial/ogcapi-features"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": ["bbox","json","object","geo"]
+}

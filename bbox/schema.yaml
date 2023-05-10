@@ -1,0 +1,14 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: 'Schema for bbox'
+'@modelReference': context.jsonld
+required:
+- coordinates
+type: object
+properties:
+  coordinates:
+    type: array
+    items:
+      type: number
+      
+# How can I state that the array should be either 4 items or 6 items? 
+# See: https://github.com/opengeospatial/ogcapi-features/blob/master/core/openapi/ogcapi-features-1.yaml#L63
